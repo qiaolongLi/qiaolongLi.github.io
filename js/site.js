@@ -27,8 +27,11 @@ $.extend($.easing,
 
         //attatch click listeners
     	navItems.on('click', function(event){
-    		event.preventDefault();
             var navID = $(this).attr("href").substring(1);
+            if (! document.getElementById(navID)) {
+              return
+            }
+            event.preventDefault();
             disableScrollFn = true;
             activateNav(navID);
             populateDestinations(); //recalculate these!
@@ -80,16 +83,15 @@ $(document).ready(function (){
 	});
 
     //links going to other sections nicely scroll
-	$(".container a").each(function(){
-        if ($(this).attr("href").charAt(0) == '#'){
-            $(this).on('click', function(event) {
-        		event.preventDefault();
-                var target = $(event.target).closest("a");
-                var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
-            });
-        }
-	});
+	// $(".container a").each(function(){
+    //     if ($(this).attr("href").charAt(0) == '#'){
+    //         $(this).on('click', function(event) {
+    //     		event.preventDefault();
+    //             var target = $(event.target).closest("a");
+    //             var targetHight =  $(target.attr("href")).offset().top
+    //         	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+    //         });
+    //     }
+	// });
 
 });
-

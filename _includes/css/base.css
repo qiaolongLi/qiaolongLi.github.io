@@ -22,6 +22,25 @@
 	#Misc */
 
 
+.panel-heading{
+    background-color: #F5CA85  !important;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:  #542762 !important;
+}
+
+.panel-body{
+    background-color:#92468E !important;
+    color: #F5CA85;
+    
+}
+
+.panel-body a{
+    color: #F5CA85 !important;
+    text-decoration: none;
+}
+
+
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -61,6 +80,9 @@
 
 /* #Typography
 ================================================== */
+	h1, h2 {
+	    font-family: 'Mochiy Pop One', sans-serif;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -81,19 +103,19 @@
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
-	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color:  #F0F0F0; font-style: italic; }
+	blockquote {  margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: # #F0F0F0; }
 	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #F0F0F0; }
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
 /* #Links
 ================================================== */
-	a, a:visited { text-decoration: underline; outline: 0; }
-	a:hover, a:focus { }
+	a, a:visited { text-decoration: underline; color: #999999; outline: 0; }
+	a:hover, a:focus { color: gray; }
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -107,7 +129,7 @@
 	ul ul ul, ul.disc { list-style: disc outside; }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
+	li { line-height: 24px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
@@ -276,7 +298,7 @@
 
 .highlight pre, .highlight code { display:block; margin:0; padding:0; background: none; overflow:auto; word-wrap: normal; }
 
-.highlight, .linenodiv {
+.highlight, .gutter {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWPQ1dU1BgABzQC7XXMTYQAAAABJRU5ErkJggg==);
   display:block;
   padding: 10px;
@@ -364,3 +386,4 @@ span.lineno {
 .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+

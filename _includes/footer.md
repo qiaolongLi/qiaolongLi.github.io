@@ -1,8 +1,5 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Copyright Open Source Robotics Foundation
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
-
+Made with [Jekyll](https://jekyllrb.com/) using the [SinglePaged theme](https://github.com/t413/SinglePaged)
