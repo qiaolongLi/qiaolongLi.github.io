@@ -58,7 +58,7 @@ Workshop proposals must include:
 
 Describe the intended audience and what resources (if any) would be required. Please be sure to include enough information in your proposal for the program committee to evaluate the above review criteria.
 
-Submit these files on [this website](https://alidocs.dingtalk.com/notable/share/form/v011GXn4BjGK3WoODQ4_dv19yqvsgs3oebp3pcjys_1qX0QQ0).
+Submit these files on [this website](https://j7h4nezmu0.feishu.cn/share/base/form/shrcn1kcmgDIThzVG6ODcgekwAf).
 Talk proposals must be submitted by {{ site.submission_deadline }}.
 The program will be announced {{ site.acceptance_date }}.
 
@@ -76,7 +76,7 @@ Talk proposals must include
 * Audio abstract - All talk proposals must include a (maximum) one minute recording of the presenter describing the content of the talk. It should be a single-take, responding as if a colleague asked what the talk was about. Please use either the mp3 or ogg file format. Used only for review by the Program Committee (not made public).
 * Key URL handles - Optionally include a single link handles to be associated with talk in publicity materials.
 
-Submit these files on [this website](https://alidocs.dingtalk.com/notable/share/form/v011X3lE6pow0yBnJbv_dv19yqvsgs3oebp3pcjys_1qX0QQ0).
+Submit these files on [this website](https://j7h4nezmu0.feishu.cn/share/base/form/shrcnpB5anai4MGht2dr1QJrXOd).
 Talk proposals must be submitted by {{ site.submission_deadline }}.
 The program will be announced {{ site.acceptance_date }}.
 
