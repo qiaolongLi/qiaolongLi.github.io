@@ -34,7 +34,7 @@ published: true
 
 <br>
 
-{% if site.acceptance_date %}
+<!-- {% if site.acceptance_date %}
 ### Proposal acceptance notification
 {{ site.acceptance_date }}
 {% endif %}
@@ -58,7 +58,7 @@ published: true
 {% if site.late_registration_start %}
 ### Late registration starts
 {{ site.late_registration_start }}
-{% endif %}
+{% endif %} -->
 
 <br>
 
